@@ -57,3 +57,12 @@ def myfunc():
 myfunc()
 print("python is",x)
 
+
+# strings in python
+
+s="awesome"
+print(s.split())
+print(s.strip())
+print(s.upper())
+
+
