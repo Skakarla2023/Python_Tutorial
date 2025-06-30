@@ -65,25 +65,3 @@ my_variable_name = "John"
 
 ![image](https://github.com/user-attachments/assets/bbb43c57-0740-4735-a83e-786810a7c4e2)
 
-![image](https://github.com/user-attachments/assets/23709f4b-f4fc-405b-ad5a-7ea7c4ca2c9c)
-
-![image](https://github.com/user-attachments/assets/a9f3d54a-6ec9-40fe-b5d6-cbe403e39133)
-
-```python
-x=int(1)    # 1
-y=int(1.1)  # 1
-z=int("3")  # 3
-```
-
-![image](https://github.com/user-attachments/assets/4490e01c-97d1-4a46-84a3-726508c7e28d)
-
-```python
-a="welcome"
-print(len(a))
-print(type(a))
-print("o" in a)
-print("m" not in a)
-```
-
-![image](https://github.com/user-attachments/assets/3f2cb87d-0027-4539-9efe-7fe2df32c7a1)
-
