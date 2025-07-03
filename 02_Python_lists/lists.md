@@ -218,22 +218,9 @@ output:
 ['a', 'b', 'c', [1, 2, 3, 'a', 'b', 'c'], [1, 2, 3, 'a', 'b', 'c'], [1, 2, 3, 'a', 'b', 'c'], [1, 2, 3, 'a', 'b', 'c'], [1, 2, 3, 'a', 'b', 'c'], [1, 2, 3, 'a', 'b', 'c']]
 ```
 
+### List Methods
+
+![image](https://github.com/user-attachments/assets/20d55d2e-1e0d-49ae-aa90-eac0b0b00957)
 
 
 
-
-
-
-
-
-
-
-
-```python
-
-```
-
-output:
-```
-
-```
