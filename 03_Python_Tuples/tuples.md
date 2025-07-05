@@ -87,3 +87,45 @@ banana
 ![image](https://github.com/user-attachments/assets/2f9247bc-f69d-419e-8836-213fc41db439)
 
 ```python
+mytuple=("satwika","sandeep","kethana","vaishnavi","Rishi","chaithu")
+if "kethana" in mytuple:
+    print("yes she exists in my heart")
+```
+
+Output:
+```
+yes she exists in my heart
+```
+
+![image](https://github.com/user-attachments/assets/8f756185-b4a6-4a28-b369-fb2a593ffbab)
+
+```python
+cars=("BMW","Benz","Hyundai")
+x=list(cars)
+x[2]="Range Rover"
+y=tuple(x)
+print(y)
+```
+
+Output:
+```
+('BMW', 'Benz', 'Range Rover')
+```
+
+![image](https://github.com/user-attachments/assets/9b3b8d64-e36c-4baf-b6ea-bf36ea5e3f3c)
+
+```java
+thistuple = ("apple", "banana", "cherry")
+y = list(thistuple)
+y.append("orange")
+thistuple = tuple(y)
+```
+
+Output:
+```
+('apple', 'banana', 'cherry', 'orange')
+```
+
+![image](https://github.com/user-attachments/assets/544602fa-76fa-4db2-8150-e45044140a52)
+
+![image](https://github.com/user-attachments/assets/83c496ad-d3b9-41fd-9fe6-b8e5c63076f3)
