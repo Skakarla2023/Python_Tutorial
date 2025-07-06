@@ -129,3 +129,123 @@ Output:
 ![image](https://github.com/user-attachments/assets/544602fa-76fa-4db2-8150-e45044140a52)
 
 ![image](https://github.com/user-attachments/assets/83c496ad-d3b9-41fd-9fe6-b8e5c63076f3)
+
+![image](https://github.com/user-attachments/assets/13a0986d-9add-403a-98b1-013e1abcd9f8)
+
+```python
+thistuple=("apple","banana","cherry")
+y=("kiwi",)
+thistuple+=y
+print(thistuple)
+```
+
+Output:
+```
+('apple', 'banana', 'cherry', 'kiwi')
+```
+
+![image](https://github.com/user-attachments/assets/2c6c94a4-e294-45dc-9ae9-315dd2028be0)
+
+```python
+thistuple=("apple","banana","cherry")
+
+#converting tuple to list
+y=list(thistuple)
+
+#removing the item from list
+y.remove("banana")
+
+#converting the list again to tuple
+x=tuple(y)
+
+# print the tuple
+print(x)
+```
+
+Output:
+```
+('apple', 'cherry')
+```
+
+![image](https://github.com/user-attachments/assets/8e97201a-350c-4909-8a09-0760f428a072)
+
+![image](https://github.com/user-attachments/assets/b367a837-e53a-48ce-a8be-801990da4fde)
+
+```python
+life=("me","pride","happiness","family","l")
+
+(a,b,c,d,e)=life
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+```
+
+![image](https://github.com/user-attachments/assets/2aa58b96-3624-42ff-b7f5-0756c8c4454b)
+
+![image](https://github.com/user-attachments/assets/c605e40c-a8e2-4e93-b18d-d2e7d4f7421c)
+
+```python
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+```
+
+Output:
+```
+
+apple
+banana
+['cherry', 'strawberry', 'raspberry']
+```
+
+![image](https://github.com/user-attachments/assets/2c00e99f-d094-4076-9727-af0faff3186e)
+
+```python
+fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
+
+(green, *tropic, red) = fruits
+
+print(green)
+print(tropic)
+print(red)
+```
+
+Output:
+```
+
+apple
+['mango', 'papaya', 'pineapple']
+cherry
+```
+
+### Python - Loop Tuples
+
+![image](https://github.com/user-attachments/assets/279c8a36-5ec9-41c7-97d9-518bb5a9ea05)
+
+```python
+fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
+
+for i in fruits:
+	print(i)
+```
+
+Output:
+```
+apple
+mango
+papaya
+pineapple
+cherry
+```
+
+![image](https://github.com/user-attachments/assets/6459c5e4-109b-4d4b-b8dc-c4ec0625239b)
+
+![image](https://github.com/user-attachments/assets/2d51fcef-0f7f-47b7-a2ed-06d3c6889161)
+
