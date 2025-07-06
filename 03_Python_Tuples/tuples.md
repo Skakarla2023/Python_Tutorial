@@ -247,5 +247,9 @@ cherry
 
 ![image](https://github.com/user-attachments/assets/6459c5e4-109b-4d4b-b8dc-c4ec0625239b)
 
-![image](https://github.com/user-attachments/assets/2d51fcef-0f7f-47b7-a2ed-06d3c6889161)
+```python
+fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 
+for i in range(len(fruits)):
+	print(fruits[i])
+```
