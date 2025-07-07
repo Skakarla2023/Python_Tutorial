@@ -253,3 +253,69 @@ fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 for i in range(len(fruits)):
 	print(fruits[i])
 ```
+
+![image](https://github.com/user-attachments/assets/49768243-b9a4-493f-b7c3-3b1eda760a29)
+
+```python
+ mytuple=("a","b","c")
+i=0
+
+while i < len(mytuple):
+  print(mytuple[i])
+  i = i + 1
+```
+
+Output:
+```
+a
+b
+c
+```
+
+![image](https://github.com/user-attachments/assets/b1470957-1c25-4ebb-8535-c078e0e1e466)
+
+```python
+tuple1 = ("A","B","C","D")
+tuple2 = ("E","F","G","H")
+
+tuple3 = tuple1 + tuple2
+print(tuple3)
+```
+
+Output:
+```
+('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H')
+```
+
+![image](https://github.com/user-attachments/assets/4af789ce-257e-4e73-98a8-dd2b39fc56b1)
+
+```python
+tuple1 = ("A","B","C","D")
+tuple2 = ("E","F","G","H")
+
+tuple3 = tuple1 + tuple2
+print(tuple3)
+
+tuple4 = tuple3*3
+print(tuple4)
+```
+
+Output:
+```
+('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H')
+('A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H')
+```
+
+![image](https://github.com/user-attachments/assets/dfc83626-955c-419b-87ad-49daa4f1bbe1)
+
+```python
+tuple1=("A","B","C","D",1,2,3,4)
+print(tuple1.count("B"))
+print(tuple1.index(3))
+```
+
+Output:
+```
+1
+6
+```
