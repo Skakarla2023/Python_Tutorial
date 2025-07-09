@@ -151,3 +151,149 @@ Output:
 {1, 2, 3, 4, 5, 6, 7}
 ```
 
+![image](https://github.com/user-attachments/assets/bc0308b4-f97f-4264-bb85-30644b5bca57)
+
+```python
+s1={"a","b","c"}
+s2={"d","e","f"}
+
+
+# this method updates the current set by adding the other set elements
+s1.update(s2)
+
+print(s1)
+```
+
+Output:
+```
+{'a', 'b', 'c', 'f', 'e', 'd'}
+```
+
+![image](https://github.com/user-attachments/assets/743896f4-7cf1-4566-810d-9bbfb496d04e)
+
+```python
+s1={"a","b","c"}
+
+# another set
+s2={"d","e","f"}
+
+# another list
+mylist=["g","h","i"]
+
+#another tuple
+mytuple=("j","k","l")
+
+
+s1.update(s2)
+print(s1)
+
+s1.update(mylist)
+print(s1)
+
+s1.update(mytuple)
+print(s1)
+```
+
+Output:
+```
+{'a', 'e', 'f', 'c', 'b', 'd'}
+{'h', 'i', 'b', 'c', 'g', 'a', 'e', 'f', 'd'}
+{'h', 'i', 'b', 'j', 'c', 'g', 'a', 'e', 'f', 'l', 'd', 'k'}
+```
+
+![image](https://github.com/user-attachments/assets/12c2a5b3-1ef8-4bf5-82ae-9df50415a590)
+
+```python
+thisset = {"apple", "banana", "cherry"}
+
+thisset.remove("banana")
+
+print(thisset)
+```
+
+Output:
+```
+{'cherry', 'apple'}
+```
+
+![image](https://github.com/user-attachments/assets/e209836c-f460-4526-9fa4-3cf3733dac86)
+
+- If the item specified in remove does not exist it will raise an error.
+
+```python
+thisset = {"apple", "banana", "cherry"}
+
+thisset.remove("kiwi")
+
+print(thisset)
+```
+
+Output:
+```
+Traceback (most recent call last):
+  File "./prog.py", line 3, in <module>
+KeyError: 'kiwi'
+```
+
+- Use the discard() method, if the item specified in the discard method does not exist, it does not return an error.
+
+```python
+thisset = {"apple", "banana", "cherry"}
+
+thisset.discard("cherry")
+print(thisset)
+```
+
+Output:
+```
+{'banana', 'apple'}
+```
+
+![image](https://github.com/user-attachments/assets/266e7d16-9f8c-4512-b749-45df4443b00e)
+
+```python
+thisset = {"apple", "banana", "cherry"}
+
+thisset.discard("kiwi")
+print(thisset)
+```
+
+Output:
+```
+{'banana', 'cherry', 'apple'}
+```
+
+![image](https://github.com/user-attachments/assets/7bdc9709-89b8-49a2-b571-79d8ce838212)
+
+```python
+myset={"a","b","c","d"}
+
+x=myset.pop()
+print(x)
+```
+
+Output:
+```
+c
+```
+
+![image](https://github.com/user-attachments/assets/5e3ec03e-1a53-4f1f-9d22-008f31cad54f)
+
+- The del keyword will delete the set completely:
+
+```python
+myset={"a","b","c","d"}
+
+del myset
+
+print(myset)
+```
+
+Output:
+```
+Traceback (most recent call last):
+  File "./prog.py", line 5, in <module>
+NameError: name 'myset' is not defined
+```
+
+
