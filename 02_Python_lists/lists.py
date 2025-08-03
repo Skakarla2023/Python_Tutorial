@@ -9,7 +9,7 @@ numbers.append(20)
 print("After appending 20:")
 print(numbers)
 
-print("\n")
+print("\n")    
 
 # insert items at particular index
 numbers.insert(3,9)
