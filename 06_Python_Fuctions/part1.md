@@ -121,3 +121,60 @@ Hi, I am Saritha
 I am  24  years old
 ```
 
+#### 📓 Note:
+
+- If your code contains both keyword and positional arguments, use keyword arguments after using positional arguments.
+- If you do not have any value to return in your fucntion Python returns **None**.
+- By default, every function in python returns None, if we have any value to return then we can return the value using the return statement.
+
+### 🌐 Return Statement:
+
+```python
+def square(num):
+    return num*num
+
+
+print(square(5))
+print(square(199))
+```
+
+Output:
+```
+25
+39601
+```
+
+
+
+-----------------------------------------
+
+
+
+```python
+def emoji_convertor(message):
+    words = message.split(' ')
+    # this method goes upto the space that we have specified and uses it as boundary to split the words in the given string and then it returns a list
+
+    emojis={
+    ":)":"😊",
+    ":(":"😒"
+    }
+
+    output = " "
+    for word in words:
+      output += emojis.get(word, word)+" "
+    return output
+
+
+message = input(">")
+result = emoji_convertor(message)
+print(result)
+```
+
+Output:
+```
+>:)
+ 😊
+```
+
+
