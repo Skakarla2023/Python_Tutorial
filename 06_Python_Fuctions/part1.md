@@ -171,6 +171,8 @@ result = emoji_convertor(message)
 print(result)
 ```
 
+> emojis.get(word, word), it searches for the key(':)') in the code and returns its value i.e., the emoji if the key is present in the dictionary, if it does not exist it returns the word itself(because we passed word into the function.
+
 Output:
 ```
 >:)
